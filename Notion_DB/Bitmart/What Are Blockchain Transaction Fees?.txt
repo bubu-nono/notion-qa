@@ -1,0 +1,57 @@
+Why transaction fees?
+Transaction fees are and have been an essential part of most blockchain systems since their inception. You are most likely to have come across them when sending, depositing, or withdrawing crypto.
+
+The majority of cryptocurrencies use transaction fees for two important reasons. First of all, fees reduce the amount of spam on the network. It also makes large-scale spam attacks costly and expensive to implement. Secondly, transaction fees act as an incentive for users that help verify and validate transactions. Think of it as a reward for helping the network.
+
+For most blockchains, transaction fees are reasonably cheap, but they can get quite expensive depending on network traffic. As a user, the amount you choose to pay in fees determines your transaction's priority in being added to the next block. The higher the fee paid, the quicker the confirmation process.
+
+Bitcoin transaction fees
+As the world's first blockchain network, Bitcoin set the standard for transaction fees used by many cryptocurrencies today. Satoshi Nakamoto realized that transaction fees could protect the network from large-scale spam attacks and incentivize good behavior.
+
+Bitcoin miners receive transaction fees as part of the process of confirming transactions to a new block. The pool of unconfirmed transactions is called the memory pool (or mempool). Naturally, miners will prioritize transactions with higher fees, which users agreed to pay when sending their BTC to another bitcoin wallet.
+
+Malicious actors who wish to slow down the network must therefore pay a fee associated with each transaction. If they set the fee too low, miners will likely ignore their transactions. If they put them at a suitable level, they incur a high economic cost. So, transaction fees also act as a simple but effective spam filter.
+
+How are BTC transaction fees calculated?
+On the Bitcoin network, certain crypto wallets allow users to set their transaction fees manually.  It's also possible to send BTC with zero fees, but miners will most likely ignore such transactions, meaning they won't be validated.
+
+Unlike some tend to believe, Bitcoin fees are not dependent on the amount sent but on the transaction size (in bytes). For example, imagine your transaction size is 400 bytes, and the average transaction fee is now at 80 satoshis per byte. In that case, you would have to pay around 32,000 satoshis (or 0.00032 BTC) for a good chance of having your transaction added to the next block.
+
+When network traffic is high, and there is a great demand for sending BTC, the transaction fee needed for speedy confirmation rises as other bitcoin users try to do the same. This may occur during periods of intense market volatility. 
+
+As such, the high fees can make it challenging to use BTC in day-to-day situations. Buying a $3 cup of coffee might not be practical if the fees are much higher than that.
+
+Only a certain number of transactions can be included within a block, which has a limit of 1MB (i.e., block size). Miners add these blocks to the blockchain as quickly as possible, but there is still a limit to how fast they can go.
+
+The scalability of cryptocurrency networks is a crucial issue here in deciding network fees. Blockchain developers are making continuous efforts to address the problem. Previous network updates have helped improve scalability, such as the implementation of SegWit and the Lightning Network.
+
+Ethereum transaction fees
+Ethereum transaction fees work differently in comparison to Bitcoin's. The fee takes into account the amount of computing power needed to process a transaction, known as gas. Gas also has a variable price measured in ether (ETH), the network's native token. 
+
+While the gas needed for a specific transaction can stay the same, gas prices can rise or fall. This gas price is directly related to network traffic. If you pay a higher gas price, miners will likely prioritize your transaction.
+
+How are Ethereum transaction fees calculated?
+The total gas fee is simply a price that covers the cost, plus an incentive to process your transaction. However, you should also consider the gas limit, which defines what's the maximum price paid for that transaction or task.
+
+In other words, the gas cost is the amount of work required, and the gas price is the price paid for “each hour” of work. The relation between these two and the gas limit defines the total fee for an Ethereum transaction or smart contract operation.
+
+Let's pick a random transaction on Etherscan.io as an example. The transaction cost 21,000 gas, and the gas price was 71 Gwei. So, the total transaction fee was 1,491,000 Gwei or 0.001491 ETH.
+
+As Ethereum makes its way towards a Proof of Stake model (see Casper), there is an expectation that gas fees will decrease. The amount of gas needed to confirm a transaction will be lower as the network will need only a fraction of the computational power to validate transactions. But, network traffic can still affect transaction fees as validators prioritize higher-paying transactions.
+
+BNB Smart Chain transaction fees
+BNB Smart Chain (BSC) is another blockchain, which runs in parallel to the BNB Beacon Chain (i.e., two separate networks). While the BNB running on the BNB Beacon Chain is a BEP-2 token, the BNB on the BSC is a BEP-20 token.
+
+The BNB Smart Chain allows for the creation of smart contracts, which makes it more customizable. The fee structure for BSC isn't fixed like the BNB Beacon Chain. Instead, a gas system is used (similar to Ethereum), reflecting the computing power needed for executing transactions and smart contract operations.
+
+The BSC network runs a Proof of Staked Authority consensus mechanism. Users of the network need to stake BNB to become a validator, and upon the successful validation of a block, they receive the transaction fees included.
+
+How are BNB Smart Chain transaction fees calculated?
+As mentioned, the BSC fee structure is very similar to the one found on Ethereum. The transaction fees are denoted in Gwei, which is a small denomination of BNB equal to 0.000000001. Users can set their gas prices to prioritize their transactions added to the block. 
+
+To find out the current and historical average price of gas, BscScan provides a daily average along with the lowest and highest price paid. As of March 2021, the average fee on BSC is around 13 Gwei.
+
+In the example below (taken from Bscscan.com), the gas price was 10 Gwei. Note that the gas limit was set to 622,732 Gwei, but only 352,755 (52.31%) Gwei was used in this transaction, resulting in a transaction fee of 0.00325755 BNB.
+
+The BSC fees are usually very low, but if you try to send tokens without BNB in your account, the network will notify you that you have insufficient funds. Make sure you keep some extra BNB in your wallet to pay for your transaction fees.
+

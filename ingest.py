@@ -1,14 +1,14 @@
 """This is the logic for ingesting Notion data into LangChain."""
-from pathlib import Path
-from langchain.text_splitter import CharacterTextSplitter
-import faiss
-from langchain.vectorstores import FAISS
-from langchain.embeddings import OpenAIEmbeddings
 import pickle
+from pathlib import Path
 
+import faiss
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.vectorstores import FAISS
 
 # Here we load in the data in the format that Notion exports it in.
-ps = list(Path("Notion_DB/").glob("**/*.md"))
+ps = list(Path("Notion_DB/").glob("**/*.txt"))
 
 data = []
 sources = []

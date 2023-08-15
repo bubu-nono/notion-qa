@@ -1,0 +1,16 @@
+In cryptography, the word hash refers to the output produced by a hash function after a piece of data is submitted (mapped) through it. Other than simply hash, the output produced by hash functions may also be referred to as hash value, hash code, or digest. 
+To better understand what a hash is, it’s worth discussing what are hash functions and how they work.
+Hash functions are mathematical algorithms that convert an input value of any size into an output (hash) of fixed size. In most cases, the output consists of a hexadecimal number. This means the hash is often denoted as a combination of numbers (0 to 9) and letters (a to f).
+For instance, if we use the word “Binance” as the input value, and map it through an SHA-256 hash function, the output value (or hash) returned will be:
+
+f1624fcc63b615ac0e95daf9ab78434ec2e8ffe402144dc631b055f711225191
+
+Note that it doesn’t matter how many times we perform this action, the output will always be the same (as long as the input doesn’t change).
+
+On the other hand, any minor change to the input will cause the hash function to return a completely different hash as the output. For example, if we submit the word “binance” instead of “Binance” we would have the following hash as a result:
+59bba357145ca539dcd1ac957abc1ec5833319ddcae7f5e8b5da0c36624784b2
+
+Hashes are useful for verifying the validity of certain information, without revealing what the information is. In practice, hash functions may be applied to various scenarios. A few use cases include database lookups, large files analyses, and data management.
+
+When combined with cryptographic techniques, we have the so-called cryptographic hash functions. These are extensively used in information-security and are an essential part of most blockchain networks.
+For instance, the Bitcoin blockchain has many operations that involve hashing, and these are crucial in the process of mining.

@@ -1,0 +1,5 @@
+If you sent wrong coins to your BitMart coin address:
+BitMart generally does not offer a token/coin recovery service.
+If you have suffered a significant loss as a result of incorrectly deposited tokens/coins, BitMart may, solely at our discretion, assist you in recovering your tokens/coins. This process is extremely complicated and may result in significant cost, time and risk.
+If you wish to request BitMart to recover your coins, please provide: your BitMart account email, coin name, address, amount, txid(Critical), transaction screenshot. BitMart team will judge whether or not retrieve wrong coins.
+If it was possible to recover your coins, we may need to install or upgrade the wallet software, export/ import private keys etc. These operations can only be conducted by authorized staff under carefully security audit. Please be patient as it may cost over two weeks to retrieve wrong coins.

@@ -1,0 +1,12 @@
+In the context of cryptocurrency, a private key is a number that allows users to sign transactions and to generate receiving addresses.
+Cryptocurrencies rely heavily on public-key cryptography to protect users’ funds. In fact, this is where their name comes from.
+Public-key cryptography involves users generating a very big number (a private key) that would be practically impossible for anyone to guess. Typically, this number is represented as a long string of letters and numbers. Below is an example of a Bitcoin key:
+L2hjTJNhjpUTdAVMArh3UqmnTXEVx6J6Faui8cUXCPpyQMUEkJ54
+
+A user can create a public key by performing an operation with the private key. Typically, we do another operation on the public key to get a public address. This is what you hand out to other users when you want them to send funds to you. 
+
+Importantly, a private key also allows you to digitally sign data, such as a message that says I am paying X to address Y. Ultimately, that’s all a transaction is – a signed statement on the blockchain that assigns coins to a new address.
+If you sign a message (i.e., a transaction) using your private key, others can use your corresponding public key to verify its authenticity. They use your public key to check if the message was really signed by you, and to ensure it wasn't altered after that. 
+Note that it’s necessary (and perfectly safe) to share your public key with others. But you should never reveal your private key. If someone gets access to it, they’ll be able to spend your funds by signing transactions on your behalf. 
+Nowadays, users are rarely exposed to private keys like the Bitcoin one seen above. Most cryptocurrency wallets today support seed phrases, which are human-readable backups that can recover a virtually limitless amount of private keys.
+Keeping your private keys secret is of paramount importance. There are different ways you can shield them from prying eyes, though many would agree that hardware wallets are the most secure option. As for day-to-day use, software wallets are perhaps a more convenient alternative. 

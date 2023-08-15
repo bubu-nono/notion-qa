@@ -1,0 +1,11 @@
+Much like an address in the real world, or a website, an address on the blockchain relates to the string of text given to identify a particular place or user. More specifically it is the string of text that designates the location of a particular wallet on the blockchain, that can be used to send or receive digital assets from.
+All blockchains have wallet addresses in some form, and most take the form of a long string of letters and numbers in a line of text that is difficult for a human to interpret but easily understood by a computer network.
+For example, a Bitcoin address will look something like the following:
+1CKa7k7RtaV4TRRcnjciVndBS8hNG1G9ip
+And an address on the Ethereum network might look like the following:
+0x77dce4813eC15650e57E1b999c197aad00bEc1c2
+Given the public nature of most blockchains, it is possible to see how much, and which type, of digital assets most wallets contain - though this is not true for private blockchains or privacy-focused cryptocurrencies such as Monero.
+
+Most cryptocurrency addresses on a blockchain network are fairly anonymous as no personally identifiable information is required when setting up a new wallet address on the blockchain. However, they are not completely anonymous and some addresses are publicly known to be tied to people or institutions.
+For instance, Vitalik Buterin has known Ethereum addresses that are publicly known. There are also Bitcoin addresses with large amounts of BTC that are known to belong to Satoshi Nakamoto.
+Public blockchains are susceptible to being tracked by anyone, and there are many software and tools that are used to monitor cryptocurrency wallets, tracking the in and out flow of digital asses.

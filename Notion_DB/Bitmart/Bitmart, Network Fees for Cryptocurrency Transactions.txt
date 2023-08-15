@@ -1,0 +1,33 @@
+What are Network Fees?
+
+Every time you send any cryptocurrency, from your address to another, a Network Transaction fee will occur, which is known as the Network fee. Moving your assets between wallets and exchanges also requires fees for every move to be recorded on the Blockchain network which is the official public ledger of all transactions.
+
+The actual fee you pay varies and fluctuates at all times corresponding to the Blockchain network that you use. For example, Bitcoin transactions will have different fees in comparison with transactions placed on the Bitcoin Cash, Ethereum or Litecoin networks. There are also special blockchain network designs that require a secondary or “gas” token to pay the network fees.
+
+ 
+
+Why is there a need for Network Fees?
+
+Mining is the process through which cryptocurrency transactions are gathered, verified and recorded into a block which will be added to the corresponding blockchain network.  For proof of work blockchains like Bitcoin and Ethereum, the miners get block rewards when they successfully validate a new block. A block is composed of transactions that are already verified or confirmed by the miners, and they are later chained together to form what we call a blockchain.
+
+The network fees which will serve as block rewards to the miners and validators help to ensure the smooth operation of such networks.  Such fee-based structure also helps to maintain the integrity of the network by avoiding repetitive or meaningless/hostile transactions.
+
+ 
+
+How are the Fees Calculated?
+
+Fees fluctuate depending on market demand and network capacity. A block can only carry limited transactions.  Therefore, during times of congestion, when a large number of users are sending funds, there can be more transactions awaiting confirmation than there is space in a block.
+
+When you decide to send funds and the transaction is broadcast, it initially goes into what is called the memory pool (mempool for short) before being verified and included into a block. It is from this mempool that the miners choose which transactions to include, and they will prioritize the ones with higher fees paid, which mean more block rewards. If the mempool is full or with high traffic, the fee market may turn into a competition: users will compete to get their transactions verified and recorded into the next block at the soonest by paying higher and higher fees. For users who are only willing to pay low network fees, their transactions are usually set aside until the miners have settled higher priority transactions.
+
+Although eventually the market will reach a maximum equilibrium fee that users are willing to pay, the process can be long and network fees of very high amounts can occur. Only when the demand decreases, will the network fee go back to its previous level.
+
+To add, the network fee you pay also relates to a number of factors including the size in kilobytes of the transaction, i.e the amount of data that makes up the transaction. One example is that SegWit sends are generally cheaper because you’re transmitting less data over the network.
+
+ 
+
+Generally speaking, there is no simple way to calculate a network fee by hand. Your BitMart wallet will automatically do the calculation and suggest an appropriate fee for you. If you would like to learn more, below are some sites that can help:
+
+https://estimatefee.com - a Bitcoin Fee Calculator.
+https://ethgasstation.info - site for tracking Gas fees on Ethereum Network.
+https://txstreet.com/v/btc-eth - live transaction visualizer featuring BTC, ETH and BCH.

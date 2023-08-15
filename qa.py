@@ -1,9 +1,13 @@
 """Ask a question to the notion database."""
+import argparse
+import os
+import pickle
+
 import faiss
 from langchain import OpenAI
 from langchain.chains import VectorDBQAWithSourcesChain
-import pickle
-import argparse
+
+os.environ["OPENAI_API_KEY"] = "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"
 
 parser = argparse.ArgumentParser(description='Ask a question to the notion DB.')
 parser.add_argument('question', type=str, help='The question to ask the notion DB')

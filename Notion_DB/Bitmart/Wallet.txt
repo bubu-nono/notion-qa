@@ -1,0 +1,21 @@
+A crypto wallet is a tool that allows users to interact with blockchain networks. They are necessary when sending and receiving Bitcoin and other digital currencies. Crypto wallets can also be used to generate new blockchain addresses.
+Unlike the traditional wallets we use in our everyday life, cryptocurrency wallets don’t really store your funds. In fact, your coins (or tokens) are simply part of a blockchain system as pieces of data, and the wallets serve as a means to access them.
+Technically speaking, most crypto wallets are able to generate one or more pairs of public and private keys. The public key is used to generate wallet addresses, which are needed to receive payments. The private keys, on the other hand, are used during the creation of digital signatures and verification of transactions (private keys are confidential and should never be shared with anyone).
+There are three major groups of cryptocurrency wallets: software, hardware, and paper wallets. But, they may also be defined as hot wallets or cold wallets according to the way they function. Hot wallets are the ones that are somehow connected to the Internet and, thus, are more susceptible to hacking attacks. Cold wallets are the ones that generate keys without any Internet connection, which make them highly resistant to cyber attacks.
+
+Software wallets
+The most common types of software wallets include web wallets, desktop wallets, and mobile wallets.
+
+Web wallet: consists of a browser interface that doesn’t require any download or installation. More convenient but also more dangerous as private keys are usually managed by third parties.
+
+Desktop wallet: software that can be downloaded and executed locally. Less convenient than web wallets but more secure because private keys are stored locally and managed by the users. Desktop wallets should only be used in computers that are clean (no virus or malware infections).
+
+Mobile wallet: are similar to desktop wallets but designed for smartphones. The use of QR codes makes them a convenient alternative to send and receive cryptocurrencies. 
+
+
+Hardware wallets
+Hardware wallets consist of physical devices that generate and store keys without any connection to the Internet and, as such, fall into the category of cold wallets. Typically, the keys are created based on random number generation (RNG) algorithms and are stored in the device itself (and nowhere else). Despite being less convenient due to limited accessibility, hardware wallets are considered one of the most secure alternatives for “storing” and managing cryptocurrencies. 
+
+
+Paper wallets
+A paper wallet consists of a piece of paper with a blockchain address and its corresponding private key. The keys are usually printed as long strings of numbers and letters along with QR codes, which can be scanned to execute cryptocurrency transactions. If paper wallets are used to generate keys offline, they can also be considered cold wallets. However, their use is being discouraged because they present numerous flaws and potential risk for users that lack technical knowledge.

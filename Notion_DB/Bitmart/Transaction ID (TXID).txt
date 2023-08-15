@@ -1,0 +1,11 @@
+A transaction ID (TXID) or transaction hash is a unique string of characters given to every transaction that’s verified and added to the blockchain. In other words, a TXID is an identification number that labels each transaction on the blockchain.
+When you make a transaction, and it gets added to the blockchain, it’s given a transaction ID as a unique identifier. Depending on the blockchain used, you can then find it in a block explorer by searching for the transaction ID. This can be useful for verifying basic transaction information, such as the amount sent, the date of transfer, the sending/receiving address, and the number of network confirmations that the transaction has received.
+For example, this is the TXID of the first-ever Bitcoin transaction sent by Satoshi Nakamoto to Hal Finney:
+f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16
+
+This is the TXID of the famous Bitcoin Pizza transaction:
+cca7507897abc89628f450e8b1e0c6fca4ec3f7b34cccf55f3f531c659ff4d79
+
+You can look up these transactions yourself by copying the TXIDs into a Bitcoin block explorer, such as blockchain.com, blockchair.com, or many others.
+When you withdraw cryptocurrency from a centralized exchange (CEX) like Bitmart, the platform will show you the TXID of your withdrawal transaction. On Bitmart, you can find this on your Transaction History page. If you click on a TXID for a given withdrawal, it’ll take you to the relevant transaction in that blockchain’s block explorer.
+If you send funds to the wrong address (or blockchain), the TXID in your withdrawal history is essential to start looking into whether you can recover your funds. Even so, it’s not a guarantee, and it’s best to contact support on the platform that you’re withdrawing to.

@@ -1,0 +1,26 @@
+KYC refers to a process that banks and other financial institutions use to gather identifying data and contact information from current and potential customers. Its purpose is to prevent fraud, money laundering, and other illicit activity, as well as the misuse of financial accounts. 
+In the US, Banks are legally mandated to use KYC in compliance with the 2001 USA Patriot Act. In 1989, the Financial Action Task Force (FATF) was established to fight money laundering on an international scale. FAFT sets standards and provides recommendations to accomplish this goal through Anti-Money Laundering (AML) practices. Member countries and jurisdictions enforce various laws, rules, and regulations to work with the AML guidelines. KYC and AML go hand-in-hand in helping to prevent dishonest and criminal financial activity.
+
+KYC practices usually start before an individual becomes a customer. Financial institutions must first verify the stated identity of a potential customer before opening an account. Because there are no legal verification standards, this process may look different for each bank. 
+
+
+Some identifying documents required by KYC processes include: 
+
+Driver’s License / Government-issued photo ID
+
+Passport
+
+Social security number
+
+PAN card
+
+Voter ID Card
+
+Address verification is also necessary. Applicants may submit different documentary proof, depending on the bank’s practices. Some examples include a utility bill, account statement from a different bank or credit card issuer or a lease agreement.
+After providing a customer with an account, banks are required to perform periodic record updates. This means they continue to “recertify” their customers with intermittent requests for KYC information throughout their banking relationship. They also assign a risk level to their customers and monitor customer transactions to ensure they match expected behavior.
+KYC practices aren’t limited to banking institutions. The financial investment industry uses KYC processes in compliance with the Financial Industry Regulatory Authority (FINRA) KYC Rule 2090. But rather than an AML effort, these KYC practices help investment companies better understand client needs.
+When it comes to cryptocurrency exchanges, users are often able to create an account before concluding the KYC process. However, these non-verified accounts present limited functionalities.
+
+Reducing and eliminating money laundering and financial fraud is the clear advantage of KYC practices. While it makes things more complex and time extensive - especially for the banking industry and its customers - the benefits likely outweigh the inconvenience. Though standardized practices would likely help streamline the process.
+
+In the cryptocurrency realm, the use of digital currency to perform Illicit activities has received lots of attention. Reducing that down is certainly beneficial to cryptocurrency and its reputation. Compliance is time-consuming but should always be encouraged. However, users should not provide sensitive identifying information without first assuring that the company implements the necessary security standards to keep the data safe.

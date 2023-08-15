@@ -1,0 +1,8 @@
+The term gas refers to the pricing mechanism used on the Ethereum network. Such a mechanism calculates the costs (fees) for performing a transaction or executing a smart contract operation. While ether (ETH) is the currency that fuels the Ethereum network, Gas is a special unit that is used to measure how much ”work” (computational resources) certain task requires. Naturally, demanding tasks will have a higher gas cost than other operations that require less computational resources.
+Note that fees are still paid in ether (ETH), but gas and ETH are two different things. Simply put, computational tasks are measured in terms of “gas cost”. On the other hand, each unit of gas has a “gas price” that is defined in ether (ETH). As such, every transaction has a particular “gas price” for each unit of gas. 
+Put in another way, the gas cost is the amount of work, and the gas price is the price paid for “each hour” of work. The relation between these two, along with the gas limit, defines the total fee for an operation or transaction.
+So if you need your transaction to be validated quickly, it makes sense to pay higher gas prices, so that validators (miners) are incentivized to verify your transaction first than others. Similarly, setting a low gas price can cause your transaction to be stuck as miners won’t have any incentive to validate it.
+
+The gas pricing mechanism is important because it guarantees that fees are being charged in a fair and appropriate way. So it prevents resources from being wasted on operations that are not valuable to the Ethereum network.
+
+It is worth noting that because the gas price is made of very small numbers, they are usually expressed in “gwei” instead of ETH, where 1 gwei is equivalent to 0.000000001 (or 10-9) ETH. 

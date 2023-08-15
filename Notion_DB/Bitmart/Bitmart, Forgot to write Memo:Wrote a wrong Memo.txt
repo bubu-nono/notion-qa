@@ -1,0 +1,14 @@
+When depositing a specified kind of coins (e.g., EOS, XLM, BNB, etc.) to BitMart, you must write a memo together with your deposit address. Adding a memo will help prove that the digital assets you are going to transfer, belong to you. Otherwise, your deposit will fail.
+
+If you forgot to add your memo or you wrote a wrong memo, please contact customer service immediately with the following information:
+
+Your BitMart account (Phone number (without country code) /Email address used for log in)
+The TXID of your deposit (which failed due to the missing of the memo)
+Please provide a screenshot of the transaction where your deposit has not arrived. This screenshot is the withdrawal record of the platform that initiated the withdrawal (the txid of the deposit must be clearly visible in the screenshot).
+Initiate a new deposit (any amount) to BitMart with correct deposit address and memo. And provide a screenshot and hash (TXID) for this transaction. 
+Note: the new deposit must from the same address as the one you used to deposit without a memo. Only in this way can prove that the failed deposit was initiated by you.
+
+ 
+
+Submit a support ticket: https://support.bmx.fund/hc/en-us/requests/new.
+After providing all the information above, please wait patiently. Our tech team will check the information and start to solve the problem for you.

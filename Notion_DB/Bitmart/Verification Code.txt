@@ -1,0 +1,1 @@
+Code sent to a second device to ensure the identity of someone logging in to an account. Used for Two-Factor Authentication

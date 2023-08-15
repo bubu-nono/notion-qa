@@ -1,0 +1,21 @@
+Dear BitMart Users,
+Please note that requests to open withdrawals for delisted tokens will cease to be free of charge, and a service fee of 50 USDT will be imposed per token. If you agree to such fee and would like to request the opening of withdrawals for specific delisted tokens, kindly do the following:
+ 
+
+Contact us by submitting a ticket at https://support.bitmart.com/hc/en-us/requests/new and provide us the name of the token you want to withdraw, your BitMart ID, and your Email address;
+Allow time for BitMart Support to check if a withdrawal is possible;
+If BitMart Support replies and confirms that we can assist with a withdrawal of the de-listed token, send 50 USDT to BitMart ID 72615740 using the internal transfer option;
+Allow time for BitMart Support to reply regarding the estimated withdrawal time, generally by the week before.
+If the withdrawal function cannot be resumed on our end or your withdrawal cannot be processed due to unforeseen reasons, the fee will be returned to your BitMart account and you will receive a notification email.
+ 
+
+The service fee is charged per token and fees will only be refunded if your request to withdraw cannot be fulfilled at the sole discretion of BitMart.
+
+ 
+
+Please noted that BitMart is not obligated to continue services concerning a delisted token pursuant to Section 4.6 of the BitMart User Agreement. Services are provided on “AS IS” “AS AVAILABLE” basis and shall only be deemed as a good faith effort to assist. Nothing herein shall be construed as a guarantee, promise, or otherwise to create any obligations on the part of BitMart.  
+ 
+
+Thank you for your support and understanding,
+The BitMart Team
+March 20, 2023

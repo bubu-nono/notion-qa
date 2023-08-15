@@ -1,0 +1,7 @@
+The term Gwei refers to a small denomination of ether (ETH), which is the native currency of the Ethereum blockchain. As the name suggests, 
+Along with ETH, Gwei is the most commonly used denomination of Ethereum’s cryptocurrency, and it is particularly useful when talking about gas. Simply put, gas is the pricing mechanism used on the Ethereum network. Such a mechanism is responsible for calculating the fees when users perform a transaction or execute a smart contract operation.
+Specifically, a unit of Gwei is defined as one-billionth (one Nano) of an Ether. So 1 Gwei equals 0.000000001 or 10-9 ETH. Conversely, 1 ETH equals one billion (109) Gwei.
+As presented on the Ethereum GitHub, there are several other denominations of ether, each representing a multiple of wei (the smallest unit of ETH).
+
+To better understand the concept of Gwei, we may use an analogy with the US dollar, where Gwei would be equivalent to coins (cents) and ETH to dollar bills. For small purchases, it’s easier to refer to prices in cents rather than in fractions of a dollar. As such, Gwei may come handy when measuring small values, and that’s the reason it is widely used when calculating the gas price.
+Although less common, Gwei may sometimes be referred to as a Shannon, NanoEther or Nano. The term Shannon refers to the mathematician and cryptographer, Claude Shannon, who is known as the father of Information Theory.

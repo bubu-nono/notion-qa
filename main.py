@@ -1,11 +1,14 @@
 """Python file to serve as the frontend"""
-import streamlit as st
-from streamlit_chat import message
-import faiss
-from langchain import OpenAI
-from langchain.chains import VectorDBQAWithSourcesChain
+import os
 import pickle
 
+import faiss
+import streamlit as st
+from langchain import OpenAI, PromptTemplate
+from langchain.chains import VectorDBQAWithSourcesChain
+from streamlit_chat import message
+
+os.environ["OPENAI_API_KEY"] = "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"
 # Load the LangChain.
 index = faiss.read_index("docs.index")
 
@@ -13,12 +16,45 @@ with open("faiss_store.pkl", "rb") as f:
     store = pickle.load(f)
 
 store.index = index
-chain = VectorDBQAWithSourcesChain.from_llm(llm=OpenAI(temperature=0), vectorstore=store)
 
+# System prompt requiring Question and Year to be extracted from the user
+combine_prompt1 = """
+You are a professional Bitmart customer service and a knowledgeable assistant.
+Please translate the answers based on the language in question.
+Given the following extracted parts of a long document and a question, create a final answer with references ("SOURCES"). 
+If you don't know the answer, just say that you don't know. Don't try to make up an answer.
+ALWAYS return a "SOURCES" part in your answer.
+Think about this step by step:
+- The user will ask a Question
+- Reply the user's question.
+- ALWAYS return a ("SOURCES") part in your answer.
+
+Example:
+=========
+FINAL ANSWER: This Agreement is governed by English law.
+SOURCES: 28-pl
+
+QUESTION: What did the president say about Michael Jackson?
+=========
+FINAL ANSWER: The president did not mention Michael Jackson.
+SOURCES:
+
+QUESTION: {question}
+=========
+{summaries}
+=========
+FINAL ANSWER:"""
+
+COMBINE_PROMPT1 = PromptTemplate(
+    template=combine_prompt1, input_variables=["summaries", "question"]
+)
+
+chain = VectorDBQAWithSourcesChain.from_llm(llm=OpenAI(temperature=0), vectorstore=store,
+                                            combine_prompt=COMBINE_PROMPT1)
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="Blendle Notion QA Bot", page_icon=":robot:")
-st.header("Blendle Notion QA Bot")
+st.set_page_config(page_title="Bitmart QA Bot", page_icon=":robot:")
+st.header("Bitmart QA Bot")
 
 if "generated" not in st.session_state:
     st.session_state["generated"] = []
@@ -28,7 +64,7 @@ if "past" not in st.session_state:
 
 
 def get_text():
-    input_text = st.text_input("You: ", "Hello, how are you?", key="input")
+    input_text = st.text_input("You: ", "", key="input")
     return input_text
 
 

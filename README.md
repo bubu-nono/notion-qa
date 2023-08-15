@@ -66,11 +66,11 @@ unzip Export-d3adfe0f-3131-4bf3-8987-a52017fc1bae.zip -d Notion_DB
 Run the following command to ingest the data.
 
 ```shell
-python ingest.py
+python3 ingest.py
 ```
 
 Boom! Now you're done, and you can ask it questions like:
 
 ```shell
-python qa.py "What is the work from home policy"
+python3 qa.py "What is the work from home policy"
 ```
